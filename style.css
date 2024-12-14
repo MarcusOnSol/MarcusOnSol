@@ -1,0 +1,140 @@
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F5F3EF; /* Off-White for the background */
+    color: #193356; /* Deep Blue for text */
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3 {
+    font-family: 'Arial', sans-serif;
+    color: #5D3A9B; /* Royal Purple for headings */
+}
+
+p {
+    margin-bottom: 1.5em;
+}
+
+/* Header & Navigation */
+header {
+    background-color: #5D3A9B; /* Royal Purple */
+    color: #F5F3EF; /* Off-White */
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #193356; /* Deep Blue */
+    padding: 15px 20px;
+    color: #F5F3EF; /* Off-White */
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    color: #F5F3EF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #E2B007; /* Gold */
+}
+
+/* Hero Section */
+.hero-content {
+    margin-top: 30px;
+    color: #F5F3EF; /* Off-White */
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #E2B007; /* Gold */
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero-image {
+    width: 200px;
+    border-radius: 10px;
+    border: 3px solid #E2B007; /* Gold Border */
+}
+
+/* Section Styles */
+main {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.about-section {
+    background-color: #E2B007; /* Gold */
+    color: #193356; /* Deep Blue */
+    padding: 30px 20px;
+}
+
+.education-section {
+    background-color: #2DA8D8; /* Teal Blue */
+    color: #F5F3EF; /* Off-White */
+    padding: 30px 20px;
+}
+
+.terminology-section {
+    background-color: #5D3A9B; /* Royal Purple */
+    color: #F5F3EF; /* Off-White */
+    padding: 30px 20px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #193356; /* Deep Blue */
+    color: #F5F3EF; /* Off-White */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #E2B007; /* Gold */
+}
+
+/* Footer */
+footer {
+    background-color: #193356; /* Deep Blue */
+    color: #F5F3EF; /* Off-White */
+    text-align: center;
+    padding: 20px;
+}
